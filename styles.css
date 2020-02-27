@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	font-family: Teko;
+	font-size: 25px;
+	background-color: lightgray;
+	border-left: 7px solid red;
+	padding: 5px;
+	margin: 0;
+}
+
+h3{
+	text-align: center;
+	font-family: Teko;
+	font-size: 20px;
+	background-color: lightgray;
+	border-left: 7px solid red;
+}
+
+.main {
+	margin: 10px 0 0 0;
+}
+
+h4 {
+	background-color: lightgray;
+	border-left: 7px solid red;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin left: 0;
+	text-align: center;
+}
+
+.photos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.photoItem {
+	display: flex;
+}
+
+img {
+	width: 225px;
+	height: auto;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+.item {
+	margin-left: 10px;
+}
+
+p {
+	margin: 10px 0 0 10px;
+	font-family: Comfortaa;
+	font-size: 15px;
+}
+
+li {
+	text-transform: uppercase;
+}
+
+div p {
+	margin: 5px 0 5px 0;
+}
+
+
+.findMe {
+	margin-top: 10px;
+	font-family: Comfortaa;
+	font-size: 15px;
+	background-color: lightgray;
+	border-left: 7px solid red;
+	padding: 5px;
+
+}
+
+@media (min-width: 600px) and (max-width: 990px){
+	h1 {
+		border-left: 8px solid blue;
+		font-size: 30px;
+
+	}
+
+	h3 {
+		border-left: 8px solid blue;
+	}
+
+	h4 {
+		border-left: 8px solid blue;
+	}
+
+	.findMe {
+		border-left: 8px solid blue;
+	}
+}
+
+@media (min-width: 991px){
+	h1 {
+		border-left: 8px solid #9696ea;
+		font-size: 35px;
+
+	}
+
+	h3 {
+		border-left: 8px solid #9696ea;
+		font-size: 25px;
+	}
+
+	h4 {
+		border-left: 8px solid #9696ea;
+		text-align: left;
+		padding-left: 10px;
+	}
+
+	.findMe {
+		border-left: 8px solid #9696ea;
+	}
+
+	img {
+		border: 3px double #3fd5d9;
+	}
+}
+
